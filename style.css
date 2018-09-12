@@ -1,0 +1,531 @@
+/*
+Tulis di sini semua style yang Anda buat.
+Tidak diperbolehkan membuat file .CSS lainnya.
+*/
+body{
+	width: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+#home{
+	background-image: url("Untitled-6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-left: -8px;
+    padding-top: 2px;
+}
+#foot{
+	width: 100%;
+	background-color: #fff;
+border-radius: 3px;
+	bottom: 0;
+	padding-bottom: -100px;
+}
+#portfolio{
+	background-image: url("wall-e-robot-sky-stars-cartoon-hd-wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#about{
+	background-color: aqua;	
+}
+#kontak{
+	background-color: #F4A460;
+}
+.heading{
+	width: 100%;
+	display: inline-grid;
+	grid-template-columns: 40% 40%;
+	grid-gap: 20%;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+}
+.heading2{
+	width: 100%;
+	display: inline-grid;
+	grid-template-columns: 40% 40%;
+	grid-gap: 20%;
+	top: 0;
+	overflow: hidden;
+	background-color: 	#6A5ACD;
+}
+
+.heading3{
+	width: 100%;
+	display: inline-grid;
+	grid-template-columns: 40% 40%;
+	grid-gap: 20%;
+	top: 0;
+	overflow: hidden;
+	background-color: #6B8E23;
+}
+
+.menu_left{
+
+	height: 100px;
+	padding-left: 20px;
+	padding-top: 10px;
+	display: block;
+	position: relative;
+}
+.menu_right{
+	text-align: center;
+	padding-right: 3px;
+	padding-top: 8px;
+	display: block;
+	position: relative;
+}
+#logo{
+	height: 100px;
+	width: 300px;
+	float: left;
+}
+li{
+	padding-left: 20px;
+	padding-bottom: 10px;
+	float: right;
+
+}
+a.nav{
+	font-family: 'Baloo Tammudu', cursive;
+	font-size: 25px;
+	color: white;
+	list-style-type: none;
+	text-decoration: none;
+	padding-bottom: 10px;
+	
+}
+a::after{
+	content:'';
+	opacity: 0;
+	position: relative;
+	padding-right: 13px;
+}
+a.nav:hover{
+	text-decoration-color: white;
+	text-decoration-line: underline;
+	opacity: 0.8;
+	list-style-type: none;
+}
+
+.main{
+	width: 80%;
+	height: 400px;
+	margin-top: 80px;
+	margin-left: 9%;
+	background-color: white;
+	grid-template-columns: 35% 65%;
+	display: grid;
+	position: relative;
+}
+.main_left{
+	border-style: outset;
+	width: auto;
+}
+
+#foto{
+ 	margin-left: 30px;	
+   	width: 300px;
+   	height: 395px;
+   	max-width: 400px;
+   	align-items: center;
+}
+.bio{
+  	padding-top: 5%; 
+   text-align: center;
+   color: black;
+   font-size: 18px;
+   font-family: monospace;
+
+}
+.bio img{
+	object-position: center;
+	object-fit: contain;
+   width: auto;
+   height: 300px;
+   border:5px ridge;
+   
+}
+
+.main_right{
+	border-style: outset;
+	width: auto;
+	display: grid;
+	grid-row: 50% 50%;
+	overflow: scroll;
+}
+.container{
+   width: 100%;
+   background-color: aqua;
+   margin-bottom: 15px;
+   border-radius: 10px;
+  } 
+.card_atas{
+	margin-left: 10px;	
+   	width: auto;
+   	height: auto;
+   	align-items: center;
+ }
+
+p#judul{
+	color: black;
+	text-align: center;
+	font: italic bold 25px/20px Georgia, serif;
+	text-shadow:3px 3px 3px red;
+
+}
+
+.skill-bar{
+   text-align: left;
+   font: bold 20px/20px serif;
+   padding: 10px;
+   font-size: 15px;
+}
+
+.skill{
+   color: #000;
+   font-size: 12px;
+   text-align: center;
+   border-radius: 10px;
+}
+.html{
+	max-width: 80%;
+	animation-play-state: running;
+	background-color: #22eb72;
+	animation-name: html;
+	animation-duration: 4s;
+}
+
+@keyframes html{
+	0%{width: 0%;}
+	100%{width: 80%;}
+}
+
+.css{
+	max-width: 70%;
+	background-color: #1E80FA;
+	animation-name:css;
+	animation-duration: 4s;
+	animation-play-state: running;
+}
+
+@keyframes css{
+	0%{width: 0%;}
+	100%{width: 70%;}
+}
+
+.js{
+	max-width: 30%;
+	background-color: #DBE223;
+	animation-name:js;
+	animation-duration: 4s;
+	animation-play-state: running;
+}
+
+@keyframes js{
+	0%{width: 0%;}
+	100%{width: 30%;}
+}
+
+.php{
+	max-width: 50%;
+	background-color: #E93232;
+	animation-name:php;
+	animation-duration: 4s;
+	animation-play-state: running;
+}
+@keyframes php{
+	0%{width: 0%;}
+	100%{width: 50%;}
+}
+
+.mysql{
+	max-width: 85%;
+	background-color: #E34255;
+	animation-name:mysql;
+	animation-duration: 4s;
+	animation-play-state: running;
+}
+@keyframes mysql{
+	0%{width: 0%;}
+	100%{width: 85%;}
+}
+
+.card_bawah{
+	margin-left: 10px;	
+   	width: auto;
+   	height: auto;
+   	align-items: center;
+ }
+
+ .photoshop{
+	max-width: 88%;
+	animation-play-state: running;
+	background-color: #22eb72;
+	animation-name: ps;
+	animation-duration: 4s;
+}
+
+@keyframes ps{
+	0%{width: 0%;}
+	100%{width: 88%;}
+}
+
+.illustrator{
+	max-width: 72%;
+	background-color: #1E80FA;
+	animation-name:ilus;
+	animation-duration: 4s;
+	animation-play-state: running;
+}
+
+@keyframes ilus{
+	0%{width: 0%;}
+	100%{width: 72%;}
+}
+
+.premier{
+	max-width: 50%;
+	background-color: #DBE223;
+	animation-name:premi;
+	animation-duration: 4s;
+	animation-play-state: running;
+}
+
+@keyframes premi{
+	0%{width: 0%;}
+	100%{width: 50%;}
+}
+
+.effects{
+	max-width: 36%;
+	background-color: #E93232;
+	animation-name:ae;
+	animation-duration: 4s;
+	animation-play-state: running;
+}
+@keyframes ae{
+	0%{width: 0%;}
+	100%{width: 36%;}
+}
+
+.sketch{
+	max-width: 24%;
+	background-color: #E34255;
+	animation-name:sketch;
+	animation-duration: 4s;
+	animation-play-state: running;
+}
+@keyframes sketch{
+	0%{width: 0%;}
+	100%{width: 24%;}
+}
+label{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.konten{
+	border: 1px solid black;
+	background-color: white;
+	width: 80%;
+	display: grid;
+	grid-template-columns: 45% 55%;
+	position: relative;
+	margin-left: 8%;
+	margin-top: 4%;
+}
+.konten_left{
+	width: auto;
+	height: auto;
+	position: relative;
+	background-color: #A0522D;
+}
+.profile{
+	padding-bottom: 5px;
+	padding: 20px 29% 0px 29%;
+}
+.profile img{
+	display: block;
+	border: 5px solid black;
+	width: auto;
+	height: 200px;
+}
+p#h{
+	color: white;
+	text-align: center;
+	font:italic bold 40px/30px serif;
+}
+p#isi{
+	font-size: 27px;
+	margin-left: 50px;
+	text-align: left;
+	font-family: 'Patrick Hand', cursive;
+}
+.konten_right{
+	width: auto;
+	height: auto;
+}
+h1#judul{
+	text-align: center;
+	font-size: 40px;
+}
+
+p#teks{
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 3px;
+	text-align: justify;
+	font-size: 22px;
+	font-family: 'Patrick Hand', cursive;
+}
+.tl{
+	width: 100%;
+	height: auto;	
+	margin:auto;	
+	background: #3E3E3E;
+}
+.kotak{
+	border-left: 5px solid orange;
+	width: 400px;
+	margin: auto;
+	transition: border 2s, color 2s, height 2s;
+}
+p#asal{
+	margin-left: 30px;
+	margin-top: -35px;
+	padding: 10px;
+	border: 4px solid orange;
+	/*border-radius: 5px;*/
+	/*box-shadow: 0px 0px 3px black;*/
+	color: white;
+	background: #3E3E3E;
+}
+.cover{
+	position: relative;
+}
+.arrow-left{
+	position: relative;
+	left: 10px;
+	top: -5px;
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right: 10px solid orange; 
+}
+.bulat{
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	border: 3px solid orange;
+	position: relative;
+	top: 10px;
+	left: -9px;
+	background-color: #3E3E3E;
+}
+.tahun{
+	border: 3px solid orange;
+	display:  block;
+	width: 80px;
+	line-height: 15px;
+	text-align: center;
+	position: relative;
+	top: 35px;
+	left: -90px;
+	color: white;
+	font-family: 'Bungee', cursive; 
+}
+* {
+    box-sizing: border-box;
+}
+
+.area {
+    border-radius: 5px;
+    background-image: url("map-image.png");
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+h2{
+	color: white;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+p#detail{
+	color: white;
+	font-size: 20px;
+}
+.fa{
+	color: white;
+	font-size: 20px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+img#me{
+	margin-right: 50px;
+	float: right;
+	display: block;
+	width: 500px;
+	height: auto;
+}
+label#in{
+	color: white;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 20px;
+}
+i#social{
+	background-color: #000;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	padding-top: 8px;
+	font-size: 25px;
+	border-radius: 100%;
+	margin-top: 3px;
+	margin-bottom: 20px;
+	color: #fff;
+
+}
+#social:hover{
+	color: red;
+}
